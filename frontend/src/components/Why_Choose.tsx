@@ -10,7 +10,7 @@ const Why_Choose = () => {
  
 
   return (
-    <section className=" py-16 md:py-10 container mx-auto ">
+    <section className=" py-16 md:py-10  mx-auto bg-[#210F37] ">
       <div className="container mx-auto px-2 md:px-4">
         <div className="flex flex-col xl:flex-row items-center gap-8 xl:gap-16">
           <div className="w-full md:w-8/12  xl:w-5/12 relative">
@@ -29,16 +29,16 @@ const Why_Choose = () => {
           
         
           <div className="w-full xl:w-7/12 space-y-6  border border-gray-200  sm:border-0 pt-5 pb-10 px-2 lg:px-12 xl:px-2 rounded">
-            <div className="inline-block bg-blue-50 text-red-800 px-4 py-1 rounded-full font-medium">
+            <div className="inline-block bg-blue-50 text-orange-700 px-4 py-1 rounded-full font-medium">
               Why Choose Us?
             </div>
             
-            <h2 className="text-2xl md:3xl 2xl:text-4xl font-bold text-gray-800 leading-tight">
-               ACE CMS – Smart <span className='text-red-500 mr-2'>Calibration Management</span> <br className='hidden lg:block' />Made Simple
+            <h2 className="text-2xl md:3xl 2xl:text-4xl font-bold text-white leading-tight">
+               ACE CMS – Smart <span className='text-white mr-2'>Calibration Management</span> <br className='hidden lg:block' />Made Simple
               <span className="text-blue-600"></span>
             </h2>
             
-            <p className=" lg:text-lg text-gray-600">
+            <p className=" lg:text-lg text-gray-300">
               At <strong>ACE CMS</strong>, we don&apos;t just help you manage calibration—we help you master it. 
               Here&apos;s why leading companies trust us:
             </p>
@@ -62,7 +62,7 @@ const Why_Choose = () => {
             </div>
             
         <div className='w-[130px] md:w-36'>
-              <Link href="#features" className=" text-sm  mt-6 bg-[#071952] text-white font-medium py-2 px-2 gap-3 md:py-2 md:px-3 rounded shadow-md transition-colors duration-300  flex items-center md:gap-5">
+              <Link href="#features" className=" text-sm  mt-6 bg-orange-600 text-white font-medium py-2 px-2 gap-3 md:py-2 md:px-3 rounded shadow-md transition-colors duration-300  flex items-center md:gap-5">
               Learn More
                <MoveRight size={20}/>
             </Link>

@@ -57,7 +57,7 @@ export default function TestimonialCarousel() {
       </h1>
 
       <div
-        className="max-w-4xl mx-auto p-4 md:p-6 bg-gray-100 rounded-lg shadow-lg md:hover:scale-105"
+        className="max-w-6xl mx-auto p-4 md:p-6 bg-gray-100 rounded-lg shadow-lg md:hover:scale-105 border border-[#210f3731]"
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
@@ -93,7 +93,7 @@ export default function TestimonialCarousel() {
               key={index}
               onClick={() => setCurrentTestimonial(index)}
               className={`w-2 h-2 md:w-5 md:h-1 mx-1 rounded-full ${
-                index === currentTestimonial ? 'bg-blue-800' : 'bg-gray-300'
+                index === currentTestimonial ? 'bg-[#210F37]' : 'bg-gray-300'
               }`}
             />
           ))}

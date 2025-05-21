@@ -58,7 +58,7 @@ const Form: React.FC = () => {
         <div className="flex flex-col md:flex-row p-4 py-10  rounded-lg  md:py-10 max-w-6xl mx-auto sm:mt-20 mb-20 justify-center">
           <div className="md:w-7/12 rounded md:rounded-none md:rounded-l-sm md:border-indigo-300 border p-5 md:p-10">
             <h2 className="text-xl md:text-3xl font-semibold text-gray-800 mb-6">
-              Get in touch and  <strong className="text-red-400">schedule your demo now!</strong>
+              Get in touch and  <strong className="">schedule your demo now!</strong>
             </h2>
             <form ref={form} onSubmit={handleSubmit} className="space-y-4">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -142,7 +142,7 @@ const Form: React.FC = () => {
               <button
                 type="submit"
                 disabled={loading}
-                className="bg-[#071952] text-white py-1 px-3 md:px-4 md:py-2 rounded hover:bg-green-500 flex gap-3 md:text-lg"
+                className="bg-violet-900 text-white py-1 px-3 md:px-4 md:py-2 rounded hover:bg-green-500 flex gap-3 md:text-lg"
               >
                 {loading ? "Sending" : "Send"}
                 <SendHorizontal className="mt-1 w-4 h-4 md:mt-1.5 " />
@@ -150,7 +150,7 @@ const Form: React.FC = () => {
             </form>
           </div>
 
-        <div className="mt-20 md:mt-0 md:w-5/12 bg-indigo-400 text-white border border-e-indigo-300 border-y-indigo-300 border-l-indigo-300 md:border-l-0 rounded md:rounded-none md:rounded-r-sm" >
+        <div className="mt-20 md:mt-0 md:w-5/12 bg-[#210F37] text-white border border-e-indigo-300 border-y-indigo-300 border-l-indigo-300 md:border-l-0 rounded md:rounded-none md:rounded-r-sm" >
             <div className="h-48 relative overflow-hidden">
              
               <div className="absolute inset-0 bg-blue-50 bg-opacity-20 flex flex-col items-center justify-center mg:rounded-tr-sm">
